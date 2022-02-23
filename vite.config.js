@@ -16,12 +16,10 @@ glob.sync('*/main.js', {
 export default defineConfig({
 	plugins: [
 		vue(),
-		/**
 		legacy({
 			targets: ['ie >= 11'],
 			additionalLegacyPolyfills: ['regenerator-runtime/runtime']
 		})
-		*/
 	],
 	build: {
 		rollupOptions: {
@@ -43,6 +41,7 @@ export default defineConfig({
 				*/
 				entryFileNames: `build/js/[name].js`,
 				chunkFileNames: `build/js/[name].js`,
+				assetFileNames: `build/assets/[name].[ext]`
 			}
 		}
 	}
