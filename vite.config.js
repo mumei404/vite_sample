@@ -22,6 +22,7 @@ export default defineConfig({
 		})
 	],
 	build: {
+		manifest: true,
 		rollupOptions: {
 			/*
 			input: {
@@ -39,9 +40,9 @@ export default defineConfig({
 				chunkFileNames: `assets/cshima[name].js`,
 				assetFileNames: `assets/ashima[name].[ext]`
 				*/
-				entryFileNames: `build/js/[name].js`,
-				chunkFileNames: `build/js/[name].js`,
-				assetFileNames: `build/assets/[name].[ext]`
+				entryFileNames: `build/js/[name].[hash].js`,
+				chunkFileNames: `build/js/[name].[hash].js`,
+				assetFileNames: `build/assets/[name].[hash].[ext]`
 			}
 		}
 	}

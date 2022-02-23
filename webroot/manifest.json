@@ -1,0 +1,49 @@
+{
+  "webroot/src/js/Article/main-legacy.js": {
+    "file": "build/js/Article/main-legacy.9608272e.js",
+    "src": "webroot/src/js/Article/main-legacy.js",
+    "isEntry": true
+  },
+  "webroot/src/js/User/main-legacy.js": {
+    "file": "build/js/User/main-legacy.2864abb3.js",
+    "src": "webroot/src/js/User/main-legacy.js",
+    "isEntry": true
+  },
+  "index-legacy.html": {
+    "file": "build/js/top-legacy.62d3e139.js",
+    "src": "index-legacy.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-legacy.8c4a267b.js"
+    ]
+  },
+  "_vendor-legacy.8c4a267b.js": {
+    "file": "build/js/vendor-legacy.8c4a267b.js"
+  },
+  "vite/legacy-polyfills": {
+    "file": "assets/polyfills-legacy.98892b3a.js",
+    "src": "vite/legacy-polyfills",
+    "isEntry": true
+  },
+  "webroot/src/js/Article/main.js": {
+    "file": "build/js/Article/main.9bb698bf.js",
+    "src": "webroot/src/js/Article/main.js",
+    "isEntry": true
+  },
+  "webroot/src/js/User/main.js": {
+    "file": "build/js/User/main.dd78bf51.js",
+    "src": "webroot/src/js/User/main.js",
+    "isEntry": true
+  },
+  "index.html": {
+    "file": "build/js/top.88030ac1.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.c2502fe6.js"
+    ]
+  },
+  "_vendor.c2502fe6.js": {
+    "file": "build/js/vendor.c2502fe6.js"
+  }
+}
