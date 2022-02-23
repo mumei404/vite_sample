@@ -16,7 +16,7 @@ glob.sync('*/main.js', {
 export default defineConfig({
 	plugins: [
 		vue(),
-		/*
+		/**
 		legacy({
 			targets: ['ie >= 11'],
 			additionalLegacyPolyfills: ['regenerator-runtime/runtime']
@@ -31,11 +31,13 @@ export default defineConfig({
 				User: resolve(__dirname, 'webroot/src/js/User/main.js'),
 			},
 			*/
-			input: input,
+			input: Object.assign({}, input, {
+				top: resolve(__dirname, 'index.html'),
+			}),
 			output: {
 				dir: 'webroot',
 				/*
-				entryFileNames: `assets/eshima[name].js`,
+				entryFileNames: `assets/eshima[name].[ext]`,
 				chunkFileNames: `assets/cshima[name].js`,
 				assetFileNames: `assets/ashima[name].[ext]`
 				*/
