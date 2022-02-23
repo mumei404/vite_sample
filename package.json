@@ -8,6 +8,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.31",
     "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
   }
 }
